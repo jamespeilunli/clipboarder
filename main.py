@@ -1,0 +1,5 @@
+import pyautogui
+import pyperclip
+
+
+
