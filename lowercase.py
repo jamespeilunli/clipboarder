@@ -1,8 +1,7 @@
-from clipboarder import Clipboarder
+import clipboarder
 
 def lowercase(string):
     return string.lower()
 
 if __name__ == "__main__":
-    c = Clipboarder(lowercase)
-    c.run()
+    clipboarder.run(lowercase)
